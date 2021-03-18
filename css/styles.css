@@ -1,0 +1,62 @@
+/* ================================= 
+  Main Elements
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 2562px;
+  background: beige;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border-radius: 10px;
+}
+
+input {
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 340px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid beige;
+  overflow: hidden;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+input:hover { 
+    transform: scale(1.1);
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid yellow;
+}
+
+p {
+  text-align:center;
+}
+
+/* ================================= 
+  Main Classes
+==================================== */
+
+.gallery {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 20px 20px;
+}
+
+.gallery {
+  margin-top: 25px;
+  margin-left: 280px;
+  margin-right: 275px;
+  margin-bottom: 25px;
+}
+}
